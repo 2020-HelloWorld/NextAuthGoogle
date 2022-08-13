@@ -121,7 +121,6 @@ export const AppBar = ({ pages }) => {
 
     <div>
     <a className="nav-a-tag1" href="#">Runtime_Terror</a>
-     
     </div>
   );
 };

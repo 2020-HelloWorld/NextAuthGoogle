@@ -111,23 +111,35 @@ signInButton.addEventListener('click', () => {
 			        
 			        <input name="email" type="email" placeholder="Email" />
 			        <input name="password" type="password" placeholder="Password" />
-			        <button>Sign Up</button>
+			        <button>Sign In</button>
 		        </form>
 	        </div>
 	        <div class="form-container sign-in-container">
-		        <h3 className='h3-tag'>Welcome to runtime_terror</h3> 
+		        <form  onSubmit={handleSubmit}>
+			        <h1>Sign in</h1>
+			        <div class="social-container">
+				        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				        <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			        </div>
+			        <span>or use your account</span>
+			        <input name='email' type="email" placeholder="Email" />
+			        <input name='password' type="password" placeholder="Password" />
+			        <a href="#">Forgot your password?</a>
+			        <button>Sign In</button>
+		        </form>
 	        </div>
 	        <div class="overlay-container">
 		        <div class="overlay">
 			        <div class="overlay-panel overlay-left">
-				        <h1>Welcome Back!</h1>
-				        <p>To keep connected with us please login with your personal info</p>
-				        <button class="ghost" id="signIn">Sign In</button>
+				        <h1>Welcome Investor!</h1>
+				        <p>To keep connected with us please login</p>
+				        <button class="ghost" id="signIn">Start-ups click here</button>
 			        </div>
 			        <div class="overlay-panel overlay-right">
-				        <h1>Hello, Friend!</h1>
-				        <p>Enter your personal details and start journey with us</p>
-				        <button class="ghost" id="signUp">Sign Up</button>
+				        <h1>Hello, Tecchiee!</h1>
+				        <p>Enter your details and start journey with us</p>
+				        <button class="ghost" id="signUp">Investor click here </button>
 			        </div>
 		        </div>
 	        </div>

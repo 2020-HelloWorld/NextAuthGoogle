@@ -16,8 +16,10 @@
 }
 
 body {
-
-	background-color:white;
+    background-image: url(C:\Users\Hithesh Patel\Desktop\uvceproject\src\pages\back.jpg);
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -268,21 +270,13 @@ footer a {
   padding:20px;
   width:100%;
 }
-.nav-a-tag,.nav-a-tag1{
-  text-decoration: none;
-  color:#000;
-  margin: 10px;
-  position: relative;
-  right:-800px;
-  top:-20px;
-  font-size:20px;
-}
+
 .nav-a-tag1{
 	text-decoration: none;
 	color:#000;
-	margin: 10px;
-  font-weight: bold;
-  font-family: 'Silkscreen', cursive;
-  font-size:35px;
-  left: -300px;
+	margin: 20px;
+  	font-weight: bold;
+  	font-family: 'Silkscreen', cursive;
+  	font-size:35px;
+  	
 }
