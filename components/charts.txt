@@ -1,0 +1,5 @@
+Documentation : https://itnext.io/chartjs-tutorial-with-react-nextjs-with-examples-2f514fdc130
+Error handling:
+https://stackoverflow.com/questions/70098392/react-chartjs-2-with-chartjs-3-error-arc-is-not-a-registered-element
+
+https://stackoverflow.com/questions/67727603/error-category-is-not-a-registered-scale
