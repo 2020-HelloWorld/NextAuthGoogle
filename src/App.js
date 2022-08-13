@@ -11,8 +11,8 @@ export default function App() {
   return (
     <Routes>
       <Route element={<HomeLayout />}>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/login" element={<LoginPage />} />
+        
+        <Route path="/" element={<LoginPage />} />
       </Route>
 
       <Route path="/dashboard" element={<ProtectedLayout />}>

@@ -16,7 +16,8 @@
 }
 
 body {
-	background: #f6f5f7;
+
+	background-color:white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -272,8 +273,16 @@ footer a {
   color:#000;
   margin: 10px;
   position: relative;
-  left: -100px;
+  right:-800px;
+  top:-20px;
+  font-size:20px;
 }
 .nav-a-tag1{
+	text-decoration: none;
+	color:#000;
+	margin: 10px;
   font-weight: bold;
+  font-family: 'Silkscreen', cursive;
+  font-size:35px;
+  left: -300px;
 }

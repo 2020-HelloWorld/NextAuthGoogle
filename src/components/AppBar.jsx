@@ -120,11 +120,8 @@ export const AppBar = ({ pages }) => {
     // </MuiAppBar>
 
     <div>
-      <nav className="navbar">
-        <a className="nav-a-tag1" href="#">WebsiteName</a>
-        <a className="nav-a-tag" href="#">Home</a>
-        <a className="nav-a-tag" href="#">Login</a>
-      </nav>
+    <a className="nav-a-tag1" href="#">Runtime_Terror</a>
+     
     </div>
   );
 };

@@ -1,3 +1,4 @@
+import axios from "axios";
 import { createContext, useContext, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
 import { useLocalStorage } from "./useLocalStorage";
@@ -9,8 +10,13 @@ export const AuthProvider = ({ children }) => {
   const navigate = useNavigate();
 
   const login = async (data) => {
-    setUser(data);
-    navigate("/dashboard/profile", { replace: true });
+    axios.post(`${process.env.REACT_APP_HOST}/auth/local/signin`, data).then((res) => {
+      console.log(res.data);
+      setUser(res.data.user);
+      navigate("/dashboard/profile", { replace: true });
+    }).catch((err) => {
+      console.log(err);
+    })
   };
 
   const logout = () => {
