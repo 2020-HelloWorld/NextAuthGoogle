@@ -30,12 +30,12 @@ const data = {
 };
 
 export default () => (
-  <div>
-    <h2>Line Example</h2>
+  <div  className='linechart'>
+   
     <Line
       data={data}
-      width={400}
-      height={400}
+      width={100}
+      height={100}
     />
   </div>
 );

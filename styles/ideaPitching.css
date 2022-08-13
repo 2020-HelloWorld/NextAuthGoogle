@@ -1,17 +1,69 @@
+
 .ideaText-box .outer-abstract{
-    background-color: rgba(45, 174, 213, 0.204);
+    background-color: rgba(69, 165, 194, 0.136);
+    margin:50px;
+    border-radius: 5px;
     
-    display:flex;
-    margin:10px;
+    box-shadow: 1px 1px 60px 0px  rgba(167, 166, 166, 0.519);
 }
 .ideaText-box .heading{
     background-color: rgb(125, 173, 211);
     text-align: center;
     font-size: 30px;
-    text-shadow: 2px 5px  10px  black;
     padding:10px;
+    margin:50px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 60px 0px  rgba(167, 166, 166, 0.519);
+}
+.heading:hover{
+    background-color: rgba(35, 135, 207, 0.537);
+    padding:13px;
+    transition-duration:0.6s ;
 }
 .ideaText-box .outer-abstract .abstract{
-    margin:200px;
-    border:1px solid;
+   text-align: center;
+   padding:10px;
+   
 }
+.outer-abstract:hover{
+    background-color: rgba(35, 135, 207, 0.537);
+    margin:60px;
+    transition-duration:0.6s ;
+}
+
+.graph-box .graphs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:200px;
+    padding:50px;
+
+}
+.piechart{
+    box-shadow: 2px 1px 50px rgba(48, 195, 208, 0.211);
+    border-radius: 20px;
+}
+.piechart:active{
+    
+    box-shadow: 2px 1px 30px rgb(0, 0, 0);
+    transition-duration: 0.6s;
+    
+}
+.piechart:hover,.linechart:hover{
+    border-radius:20px;
+    box-shadow: 2px 1px 30px rgba(48, 195, 208, 0.719);
+    transition-duration: 0.6s;
+    
+}
+.linechart{
+    box-shadow: 2px 1px 50px rgba(48, 195, 208, 0.211);
+    border-radius: 20px;
+}
+
+/*contact*/
+a{
+    text-decoration: none;
+}
+.contact-details{
+    margin:10px;
+}
+
