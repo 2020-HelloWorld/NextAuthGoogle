@@ -16,6 +16,7 @@ export default function App() {
       </Route>
 
       <Route path="/dashboard" element={<ProtectedLayout />}>
+        <Route path="" element={<HomePage />} />
         <Route path="profile" element={<ProfilePage />} />
         <Route path="settings" element={<SettingsPage />} />
       </Route>

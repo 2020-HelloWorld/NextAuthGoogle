@@ -13,6 +13,7 @@ export const AuthProvider = ({ children }) => {
     axios.post(`${process.env.REACT_APP_HOST}/auth/local/signin`, data).then((res) => {
       console.log(res.data);
       setUser(res.data.user);
+      window.localStorage.setItem('token', res.data.token);
       navigate("/dashboard/profile", { replace: true });
     }).catch((err) => {
       console.log(err);
