@@ -4,8 +4,8 @@ import GoogleProvider from "next-auth/providers/google";
 export default NextAuth({
   providers: [
     GoogleProvider({
-        clientId:"1011564412172-2epjtn8c0i17ep2oq2l5a9bulbdclco0.apps.googleusercontent.com",// process.env.GOOGLE_CLIENT_ID,
-        clientSecret: "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",//process.env.GOOGLE_CLIENT_SECRET,
+        clientId:process.env.GOOGLE_CLIENT_ID,
+        clientSecret: process.env.GOOGLE_CLIENT_SECRET,
       authorizationUrl:
         'https://accounts.google.com/o/oauth2/v2/auth?prompt=consent&access_type=offline&response_type=code',
     }),
