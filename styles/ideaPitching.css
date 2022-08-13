@@ -1,0 +1,17 @@
+.ideaText-box .outer-abstract{
+    background-color: rgba(45, 174, 213, 0.204);
+    
+    display:flex;
+    margin:10px;
+}
+.ideaText-box .heading{
+    background-color: rgb(125, 173, 211);
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 5px  10px  black;
+    padding:10px;
+}
+.ideaText-box .outer-abstract .abstract{
+    margin:200px;
+    border:1px solid;
+}

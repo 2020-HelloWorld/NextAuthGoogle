@@ -1,14 +1,9 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import LineChart from '../components/lineChart'
-import PieChart from '../components/pieChart'
-import styles from '../styles/Home.module.css'
+import IdeaPitching from '../components/ideaPitching'
 
 export default function Home() {
   return (
     <div>
-    <LineChart></LineChart>
-    <PieChart></PieChart>
+      <IdeaPitching company="Cycle"  abstract="Give a brief abstract here"/>
     </div>
   )
 }
